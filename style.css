@@ -63,7 +63,7 @@ header p {
     flex-wrap: wrap;
 }
 
-.nav-right a:hover {
+.navbar a:hover {
     text-decoration: underline;
 }
 
