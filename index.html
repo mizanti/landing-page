@@ -7,55 +7,65 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <div class="navbar">
-                <div class="left">
-                    <a href="./index.html">Header Logo</a>
+        <header class="bg-dark flex-col">
+            <div class="mw-1000">
+                <div class="navbar">
+                    <div class="left">
+                        <a href="./index.html">Header Logo</a>
+                    </div>
+                    <div class="right">
+                        <a href="#">Pricing</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </div>
                 </div>
-                <div class="right">
-                    <a href="#">header link one</a>
-                    <a href="#">header link two</a>
-                    <a href="#">header link three</a>
-                </div>
+                <div class="welcome">
+                    <div class="wel-left">
+                        <h1>This website is awesome</h1>
+                        <p>This website has some subtext that goes here under main title. It's a smaller font and the color is lower contrast.</p>
+                        <button><a href="#">Sign up</a></button>
+                    </div>
+                    <div class="wel-right">
+                        <img src="./img/machine1.jpg" alt="This is a placeholder for an image">
+                    </div>
+                </div>                 
             </div>
-            <div class="welcome">
-                <div class="right">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under main title. It's a smaller font and the color is lower contrast.</p>
-                    <button><a href="#">Sign up</a></button>
-                </div>
-                <div class="image left">
-                    <img src="" alt="This is a placeholder for an image">
-                </div>
-            </div>                
+               
         </header>
 
-        <main>
-            <div>
-                <h2>Some random information.</h2>
-                <div>
-                    <div class="card"><img src="#" alt="one"><sub>this is some subtext under an illustration or image</sub></div>
-                    <div class="card"><img src="#" alt="two"><sub>this is some subtext under an illustration or image</sub></div>
-                    <div class="card"><img src="#" alt="three"><sub>this is some subtext under an illustration or image</sub></div>
-                    <div class="card"><img src="#" alt="four"><sub>this is some subtext under an illustration or image</sub></div>
-                    <div class="card"><img src="#" alt="five"><sub>this is some subtext under an illustration or image</sub></div>
+        <main class="bg-white flex-col">
+            <div class="section-1 mw-1000">
+                <div class="title">
+                    <h2>Some random information</h2>
+                </div>
+                <div class="card-box">
+                    <div class="card"><img src="./img/machine2.jpg" alt="one"><sub>Worldwide shipping!</sub></div>
+                    <div class="card"><img src="./img/machine3.jpg" alt="two"><sub>Don't waste your time!</sub></div>
+                    <div class="card"><img src="./img/machine4.jpg" alt="three"><sub>More than 900 items for you to choose!</sub></div>
                 </div>
             </div>
 
-            <div class="quote">
-                <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
-                <p>-Thor, God of Thunder</p>    
+            <div class="bg-grey flex-col">
+                <div class="quote mw-1000">
+                    <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. <p class="sign">-Thor, God of Thunder</p></blockquote>
+                </div>
             </div>
 
-            <div class="call">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button><a href="#">Sign up</a></button>
+            <div class="bg-white flex-col">
+                <div class="call bg-blue mw-1000 flex-row">
+                    <div class="flex-row left">
+                        <h3>Call to action! It's time!</h3>
+                        <p>Sign up for our product by clicking that button right over there!</p>                        
+                    </div>
+                    <div class="flex-row right">
+                        <button><a href="#">Sign up</a></button>
+                    </div>
+                </div>                
             </div>
         </main>
 
-        <footer>
-            <div>
+        <footer class="bg-dark flex-col">
+            <div class="mw-1000">
             <p>Copyright &copy; The Odin Project 2024</p>
             </div>
         </footer>
