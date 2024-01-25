@@ -1,0 +1,64 @@
+*
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header,
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.navbar a {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.call {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h3 {}
